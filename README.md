@@ -14,7 +14,7 @@ A minimalist weather application built with **Kotlin** and **Jetpack Compose** t
 * **Retrofit**: To handle HTTP requests to the OpenWeatherMap API.
 * **Gson**: For converting JSON response data into Kotlin objects.
 * **Coil**: For loading and caching weather icons from the web.
-* vOpenWeatherMap API**: Fetches 5-day / 3-hour forecast data based on GPS coordinates.
+* **OpenWeatherMap API**: Fetches 5-day / 3-hour forecast data based on GPS coordinates.
 
  Device Services
 * **Google Play Services Location**: Used to fetch the user's geographic coordinates (Latitude/Longitude).
