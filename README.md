@@ -11,11 +11,11 @@ A minimalist weather application built with **Kotlin** and **Jetpack Compose** t
 * **Clean Architecture**: Organized into data and presentation layers for better maintainability.
 
  Networking & API
-* Retrofit**: To handle HTTP requests to the OpenWeatherMap API.
-* Moshi / Gson**: For converting JSON response data into Kotlin objects.
-* Coil**: For loading and caching weather icons from the web.
-* OpenWeatherMap API**: Fetches 5-day / 3-hour forecast data based on GPS coordinates.
+* **Retrofit**: To handle HTTP requests to the OpenWeatherMap API.
+* **Gson**: For converting JSON response data into Kotlin objects.
+* **Coil**: For loading and caching weather icons from the web.
+* vOpenWeatherMap API**: Fetches 5-day / 3-hour forecast data based on GPS coordinates.
 
  Device Services
-* Google Play Services Location**: Used to fetch the user's geographic coordinates (Latitude/Longitude).
-* Accompanist Permissions**: For handling runtime location permissions within Compose.
+* **Google Play Services Location**: Used to fetch the user's geographic coordinates (Latitude/Longitude).
+* **Accompanist Permissions**: For handling runtime location permissions within Compose.
