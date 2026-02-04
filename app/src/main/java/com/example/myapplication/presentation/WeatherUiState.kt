@@ -1,6 +1,6 @@
 package com.example.myapplication.presentation
 
-import com.example.myapplication.data.WeatherData
+import WeatherData
 
 sealed interface WeatherUiState {
     object IdleState : WeatherUiState
